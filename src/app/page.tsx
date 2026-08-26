@@ -197,7 +197,7 @@ export default function Home() {
         </p>
 
         <div className="contact-actions">
-          <a className="button primary" href="mailto:your-email@example.com">
+          <a className="button primary" href="mailto:htet48016@gmail.com">
             <Mail size={17} /> Get in touch
           </a>
           <a
@@ -208,7 +208,7 @@ export default function Home() {
           >
             <Github size={17} /> GitHub
           </a>
-          <a className="button secondary" href="#" aria-label="LinkedIn placeholder">
+          <a className="button secondary" href="www.linkedin.com/in/ath-aisw" aria-label="LinkedIn placeholder">
             <Linkedin size={17} /> LinkedIn
           </a>
         </div>
