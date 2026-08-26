@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   ArrowUpRight,
   BrainCircuit,
@@ -63,16 +64,62 @@ export default function Home() {
           <Github size={17} />
         </a>
       </nav>
-
       <section id="top" className="hero section">
         <div className="hero-glow" />
+
+        <h1>
+          Aung Thu Htet
+        </h1>
+
+        <div className="profile-image">
+          <Image
+            src="/images/profile.jpg"
+            alt="Aung Thu Htet"
+            fill
+            priority
+            className="profile-image-img"
+          />
+        </div>
+
         <div className="eyebrow">
           <span className="status-dot" />
           SOFTWARE ENGINEERING · AI / ML
         </div>
 
+        <p className="hero-copy">
+          I&apos;m a software engineering student interested in
+          building practical applications and understanding how
+          intelligent systems work under the hood.
+        </p>
+
+        <div className="hero-actions">
+          <a className="button primary" href="#projects">
+            View projects <ArrowUpRight size={17} />
+          </a>
+
+          <a
+            className="button secondary"
+            href="https://github.com/aiswath"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Github size={17} /> GitHub
+          </a>
+        </div>
+
+        <div className="scroll-hint">
+          SCROLL TO EXPLORE ↓
+        </div>
+      </section>
+      {/* <section id="top" className="hero section">
+        <div className="hero-glow" />
+        <div className="eyebrow">
+          <span className="status-dot" />
+          SOFTWARE ENGINEERING · AI / ML
+        </div>
+        
         <h1>
-          Building software .
+          Building software , 
           <br />
           Exploring <em>intelligence.</em>
         </h1>
@@ -98,7 +145,7 @@ export default function Home() {
         </div>
 
         <div className="scroll-hint">SCROLL TO EXPLORE ↓</div>
-      </section>
+      </section> */}
 
       <section id="about" className="section two-column">
         <div>
