@@ -208,7 +208,7 @@ export default function Home() {
           >
             <Github size={17} /> GitHub
           </a>
-          <a className="button secondary" href="www.linkedin.com/in/ath-aisw" aria-label="LinkedIn placeholder">
+          <a className="button secondary" href="https://www.linkedin.com/in/ath-aisw/" aria-label="LinkedIn placeholder">
             <Linkedin size={17} /> LinkedIn
           </a>
         </div>
