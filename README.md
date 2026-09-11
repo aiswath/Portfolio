@@ -1,4 +1,4 @@
-# Aung Thu Htet — Portfolio
+# Aung Thu Htet — Portfolio (TESTing fetch)
 
 Personal portfolio built with Next.js, TypeScript and Tailwind CSS.
 
