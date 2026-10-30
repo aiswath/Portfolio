@@ -53,6 +53,16 @@
     accent: "from-orange-400/20 via-orange-400/5 to-transparent",
     visual: "FB",
   },
+  {
+    number: "05",
+    title: "Ecommerce Storefront",
+    description:
+      "A React and TypeScript storefront with product search, cart management and order handling, backed by an Express API and MongoDB.",
+    stack: ["React", "TypeScript", "Express", "MongoDB"],
+    github: "https://github.com/aiswath/Ecommerce",
+    accent: "from-rose-400/20 via-rose-400/5 to-transparent",
+    visual: "EC",
+  },
 ];
 
   const skills = [
