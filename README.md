@@ -7,6 +7,7 @@ Personal portfolio built with Next.js, TypeScript and Tailwind CSS.
 - [Chatbot](https://github.com/aiswath/chatbot)
 - [WGAN-GP](https://github.com/aiswath/WGAN-GP)
 - [Ecommerce Storefront](https://github.com/aiswath/Ecommerce)
+- [Potato Disease Detector](https://github.com/aiswath/ImageRecognition) — TensorFlow and FastAPI image classification with React web and Expo Android clients.
 
 ## Local development
 

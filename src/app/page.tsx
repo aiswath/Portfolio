@@ -63,6 +63,16 @@
     accent: "from-rose-400/20 via-rose-400/5 to-transparent",
     visual: "EC",
   },
+  {
+    number: "06",
+    title: "Potato Disease Detector",
+    description:
+      "A potato leaf classifier that identifies Early Blight, Late Blight or Healthy leaves with confidence scores, using a TensorFlow model and FastAPI with React web and Expo Android interfaces.",
+    stack: ["Python", "TensorFlow", "FastAPI", "React", "React Native", "Expo"],
+    github: "https://github.com/aiswath/ImageRecognition",
+    accent: "from-lime-400/20 via-lime-400/5 to-transparent",
+    visual: "🥔",
+  },
 ];
 
   const skills = [
