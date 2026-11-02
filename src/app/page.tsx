@@ -19,6 +19,8 @@
       "A React and TypeScript storefront with product search, cart management and order handling, backed by an Express API and MongoDB.",
     stack: ["React", "TypeScript", "Express", "MongoDB"],
     github: "https://github.com/aiswath/Ecommerce",
+    image: "/images/ecommerce.jpg",
+    imageAlt: "Ecommerce storefront featuring electronics, a phone promotion and product cards",
     accent: "from-rose-400/20 via-rose-400/5 to-transparent",
     visual: "EC",
   },
@@ -199,20 +201,32 @@
             {projects.map((project) => (
               <article className="project-card" key={project.title}>
                 <div
-                  className={`project-visual bg-gradient-to-br ${project.accent}`}
+                  className={`project-visual ${project.image ? "project-visual-image" : `bg-gradient-to-br ${project.accent}`}`}
                 >
-                  <span className="project-number">
-                    {project.number}
-                  </span>
+                  {project.image ? (
+                    <Image
+                      src={project.image}
+                      alt={project.imageAlt}
+                      fill
+                      sizes="(max-width: 850px) 100vw, 560px"
+                      className="project-image"
+                    />
+                  ) : (
+                    <>
+                      <span className="project-number">
+                        {project.number}
+                      </span>
 
-                  <div className="project-orbit">
-                    <div className="orbit orbit-one" />
-                    <div className="orbit orbit-two" />
+                      <div className="project-orbit">
+                        <div className="orbit orbit-one" />
+                        <div className="orbit orbit-two" />
 
-                    <div className="orbit-core">
-                      {project.visual}
-                    </div>
-                  </div>
+                        <div className="orbit-core">
+                          {project.visual}
+                        </div>
+                      </div>
+                    </>
+                  )}
                 </div>
 
                 <div className="project-content">

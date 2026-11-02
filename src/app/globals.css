@@ -270,6 +270,9 @@ a { color: inherit; text-decoration: none; }
   place-items: center;
   overflow: hidden;
 }
+.project-visual-image { background: #f5fafb; }
+.project-image { object-fit: contain; }
+
 .project-number {
   position: absolute;
   top: 20px;
