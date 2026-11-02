@@ -14,7 +14,7 @@
   const projects = [
   {
     number: "01",
-    title: "Ecommerce Storefront",
+    title: "Ecommerce website",
     description:
       "A React and TypeScript storefront with product search, cart management and order handling, backed by an Express API and MongoDB.",
     stack: ["React", "TypeScript", "Express", "MongoDB"],
