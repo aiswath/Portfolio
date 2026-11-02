@@ -7,6 +7,7 @@
     Github,
     Linkedin,
     Mail,
+    Monitor,
     Server,
     Sparkles,
     Terminal
@@ -78,7 +79,8 @@
   const skills = [
     ["Languages", "Python · C++ · Java · JavaScript · SQL", Code2],
     ["AI / ML", "PyTorch · TensorFlow · Scikit-learn · Pandas", BrainCircuit],
-    ["Web / Backend", "React · Node.js · Express · FastAPI", Server],
+    ["Frontend", "React · React Native", Monitor],
+    ["Backend", "Node.js · Express · FastAPI · MongoDB", Server],
     ["Tools", "Git · GitHub · Linux · Docker", Terminal],
     ["Data", "MySQL · Data Processing · APIs", Database]
   ] as const;
