@@ -15,46 +15,6 @@
   const projects = [
   {
     number: "01",
-    title: "Conversational AI Chatbot",
-    description:
-      "A Python-based chatbot using Dialogflow with backend logic for handling conversations and application data.",
-    stack: ["Python", "Dialogflow", "MySQL", "FastAPI"],
-    github: "https://github.com/aiswath/chatbot",
-    accent: "from-cyan-400/20 via-cyan-400/5 to-transparent",
-    visual: "AI",
-  },
-  {
-    number: "02",
-    title: "WGAN-GP",
-    description:
-      "A Wasserstein GAN with Gradient Penalty implementation exploring stable adversarial training, image generation and experiment outputs.",
-    stack: ["Python", "PyTorch", "GANs", "Deep Learning"],
-    github: "https://github.com/aiswath/WGAN-GP",
-    accent: "from-violet-400/20 via-violet-400/5 to-transparent",
-    visual: "W",
-  },
-  {
-    number: "03",
-    title: "Snake Game",
-    description:
-      "A classic Snake game built from scratch, focusing on game logic, player input, collision detection and object-oriented programming.",
-    stack: ["Java", "Game Development", "OOP"],
-    github: "https://github.com/aiswath/Snake",
-    accent: "from-emerald-400/20 via-emerald-400/5 to-transparent",
-    visual: "🐍",
-  },
-  {
-    number: "04",
-    title: "Flappy Bird",
-    description:
-      "A Flappy Bird-style game implemented from scratch, featuring real-time game mechanics, collision detection, scoring and player controls.",
-    stack: ["Java", "Game Development", "OOP"],
-    github: "https://github.com/aiswath/Flappy-Bird",
-    accent: "from-orange-400/20 via-orange-400/5 to-transparent",
-    visual: "FB",
-  },
-  {
-    number: "05",
     title: "Ecommerce Storefront",
     description:
       "A React and TypeScript storefront with product search, cart management and order handling, backed by an Express API and MongoDB.",
@@ -64,7 +24,7 @@
     visual: "EC",
   },
   {
-    number: "06",
+    number: "02",
     title: "Potato Disease Detector",
     description:
       "A potato leaf classifier that identifies Early Blight, Late Blight or Healthy leaves with confidence scores, using a TensorFlow model and FastAPI with React web and Expo Android interfaces.",
@@ -72,6 +32,46 @@
     github: "https://github.com/aiswath/ImageRecognition",
     accent: "from-lime-400/20 via-lime-400/5 to-transparent",
     visual: "🥔",
+  },
+  {
+    number: "03",
+    title: "Conversational AI Chatbot",
+    description:
+      "A Python-based chatbot using Dialogflow with backend logic for handling conversations and application data.",
+    stack: ["Python", "Dialogflow", "MySQL", "FastAPI"],
+    github: "https://github.com/aiswath/chatbot",
+    accent: "from-cyan-400/20 via-cyan-400/5 to-transparent",
+    visual: "AI",
+  },
+  {
+    number: "04",
+    title: "Snake Game",
+    description:
+      "A classic Snake game built from scratch, focusing on game logic, player input, collision detection and object-oriented programming.",
+    stack: ["Java", "Game Development", "OOP"],
+    github: "https://github.com/aiswath/Snake",
+    accent: "from-emerald-400/20 via-emerald-400/5 to-transparent",
+    visual: "🐍",
+  },
+  {
+    number: "05",
+    title: "Flappy Bird",
+    description:
+      "A Flappy Bird-style game implemented from scratch, featuring real-time game mechanics, collision detection, scoring and player controls.",
+    stack: ["Java", "Game Development", "OOP"],
+    github: "https://github.com/aiswath/Flappy-Bird",
+    accent: "from-orange-400/20 via-orange-400/5 to-transparent",
+    visual: "FB",
+  },
+  {
+    number: "06",
+    title: "WGAN-GP",
+    description:
+      "A Wasserstein GAN with Gradient Penalty implementation exploring stable adversarial training, image generation and experiment outputs.",
+    stack: ["Python", "PyTorch", "GANs", "Deep Learning"],
+    github: "https://github.com/aiswath/WGAN-GP",
+    accent: "from-violet-400/20 via-violet-400/5 to-transparent",
+    visual: "W",
   },
 ];
 
