@@ -8,9 +8,7 @@
     Linkedin,
     Mail,
     Monitor,
-    Server,
-    Sparkles,
-    Terminal
+    Sparkles
   } from "lucide-react";
 
   const projects = [
@@ -77,12 +75,10 @@
 ];
 
   const skills = [
-    ["Languages", "Python · C++ · Java · JavaScript · SQL", Code2],
-    ["AI / ML", "PyTorch · TensorFlow · Scikit-learn · Pandas", BrainCircuit],
-    ["Frontend", "React · React Native", Monitor],
-    ["Backend", "Node.js · Express · FastAPI · MongoDB", Server],
-    ["Tools", "Git · GitHub · Linux · Docker", Terminal],
-    ["Data", "MySQL · Data Processing · APIs", Database]
+    ["Languages", "Python · JavaScript · TypeScript · Java · C++ · SQL · HTML · CSS", Code2],
+    ["Frameworks & Web", "React · React Native · Next.js · Node.js · Express · FastAPI · Tailwind CSS", Monitor],
+    ["AI / Machine Learning", "TensorFlow · PyTorch · scikit-learn · Pandas · OpenCV", BrainCircuit],
+    ["Tools & Databases", "Git · GitHub · Docker · Linux · MySQL · MongoDB · REST APIs", Database]
   ] as const;
 
   export default function Home() {
