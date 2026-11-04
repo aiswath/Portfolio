@@ -16,8 +16,8 @@
     number: "01",
     title: "Ecommerce website",
     description:
-      "A React and TypeScript storefront with product search, cart management and order handling, backed by an Express API and MongoDB.",
-    stack: ["React", "TypeScript", "Express", "MongoDB"],
+      "We built a full-stack e-commerce website that connects product discovery, cart management, and order processing in one seamless user flow. The frontend was developed with React and TypeScript, while an Express API and MongoDB handled product and order data. The interface responds dynamically to user input and state changes, providing an efficient and consistent shopping experience.",
+    stack: ["React", "React-native", "TypeScript", "Express", "MongoDB"],
     github: "https://github.com/aiswath/Ecommerce",
     image: "/images/ecommerce.jpg",
     imageAlt: "Ecommerce storefront featuring electronics, a phone promotion and product cards",
